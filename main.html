@@ -8,11 +8,68 @@
       <title>Idle Space Adventure</title>
 
       <script src="Javascript/Firstload.js"></script>
+      <script src="Javascript/Listeners.js"></script>
       
     </head>
     
-    <body>
-      
+    <body onload="LoadingScript()">
+
+      <div class="Money">
+        <h3 id="Money Counter"></h3>
+        <h3 id="Tax Rate"></h3>
+      </div>
+  
+      <div class="Start">
+        <h1>Welcome to Idle Space Adventure By ChaosBardGames!</h1>
+        <p>This game exists soley because the type of game I wanted to play doesn't exist.</p>
+        <p>Anyway, it&apos;s time to get started!</p>
+        <button id="Begin">Begin</button>
+      </div>
+
+      <div>
+        <h2>The Deck of the Avon Space Station</h2>
+        <p>You stand in an elevator on the Avon Space Station, on the edge of charted space. You're here to begin your own journey as an explorer of the unknown regions.</p>
+        <p>You chose Avon as your starting point for several reasons. First and foremost, they have cheap spacecraft for sale; you don't own one yet, but you're going to buy one soon.</p>
+        <p>Secondly, the tax rate is low, at least compared to the core regions. At only 25%, it's almost a third of the taxes on your homeworld.</p>
+        <p>And of course, Avon is owned by the Zindarian Elite Forces, better known as ZEF. It's a very safe place to start out, as the ZEF regularly patrol the area. </p>
+        <p>The elevator dings, and you step out onto the market deck. There's a whole selection of surplus ZEF ships that are for sale. You walk over, and the seller wastes no time trying to make a sale.</p>
+        <button id="Ship Choice">Browse</button>  
+      </div>
+          
+      <div class="Ship Choice">
+        <h2>Choose your ship</h2>
+          <p>The Orion. Orion class battleship, Costs 100000$ + Tax. Has an FTL drive capable of 1.2 times the speed of light. Sublights are capable of 1000 km/h.</p>
+          <p>The Orion (cont'd). Has 3-5m of armour and shields of a rating of 35000 points. Has a hanger capable of containing 3 fighter wings or 3 landing craft.</p>
+          <p>The Orion (cont'd). Has 24 quad laser turrets, 32 lancer long range piercers, 32 antimatter globe launchers, and 256 triple point defense emplacements.</p>
+          
+          <p>The Balthazar. Balthazar class battlecruiser, Costs 70000$ + Tax. Has an FTL drive capable of 1.2 times the speed of light. Sublights are capable of 1100 km/h.</p>
+          <p>The Balthazar (cont'd). Has 2-4m of armour and shields of a rating of 35000 points. Has a hanger capable of containing 3 fighter wings or 3 landing craft.</p>
+          <p>The Balthazar (cont'd). Has 24 quad laser turrets, 32 lancer long range piercers, 32 antimatter globe launchers, and 256 triple point defense emplacements.</p>
+
+          <p>The Marionette. Corvus class transport ship, costs 45000$ + Tax. Has an FTL drive capable of 1.1 times the speed of light. Sublights are capable of 700 km/h.</p>
+          <p>The Marionette (cont'd). Has 1-2m of armour and shields of a rating of 35000 points. Has a hanger capable of containing 4 fighter wings or 3 landing craft.</p>
+          <p>The Marionette (cont'd). Has 8 twin laser turrets, 4 lancer long range piercers, and 64 triple point defense emplacements.</p>
+
+          <p>The Dovik. Albion class cargo ship, costs 40000$ + Tax. Has an FTL drive capable of 1.1 times the speed of light. Sublights are capable of 600 km/h.</p>
+          <p>The Dovik (cont'd). Has 0.25-0.75m of armour and shields of a rating of 10000 points. Has a hanger capable of containg 1 fighter wing or a landing craft.</p>
+          <p>The Dovik (cont'd). Has 6 twin laser turrets and 32 triple point defense emplacements.</p>
+
+          <p>The Calamos. Calamos class landing craft, costs 10000$ + Tax. No FTL. Sublights are capable of 300km/h.</p>
+          <p>The Calamos (cont'd). Has 0.5-1m of armour and shields of a rating of 5000 points. No hangar.</p>
+          <p>The Calamos (cont'd). Has 2 laser turrets and 2 triple point defense emplacements.</p>
+
+          <p>The Frankenstien. Hodgepodge of parts, costs 2000$ + Tax. No FTL. Sublights are capable of 100km/h.</p>
+          <p>The Frankenstien (cont'd). Has 0.05 to 0.25m of armour and shields of a rating of 100 points. No hangar.</p>
+          <p>The Frankenstien (cont'd). Has 1 laser turret and 2 twin point defense guns.</p>
+
+          <button id="Orion">The Orion</button>
+          <button id="Balthazar">The Balthazar</button>
+          <button id="Marionette">The Marionette</button>
+          <button id="Dovik">The Dovik</button>
+          <button id="Calamos">The Calamos</button>
+          <button id="Frankenstien">The Frankenstien</button>
+      </div>
+          
     </body>
     
   </html>
