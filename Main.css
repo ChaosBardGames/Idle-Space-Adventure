@@ -1,0 +1,35 @@
+@charset "UTF-8";
+button {
+  color: rgb(33, 33, 230);
+  border: 2px, solid;
+  border-style: ridge;
+  border-color: rgb(52, 52, 161);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  font-size: 16px;
+  cursor: help;
+  text-color: rgb(125, 125, 124);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow - x: hidden;
+  height: 100%;
+}
+
+Left {
+  float: left;
+  background-color: rgb(33, 33, 230);
+}
+
+Right {
+  float: right;
+  background-color: rgb(33, 33, 230);
+}
